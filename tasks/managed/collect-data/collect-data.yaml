@@ -152,7 +152,7 @@ spec:
       runAsUser: 1001
   steps:
     - name: collect-data
-      image: quay.io/konflux-ci/release-service-utils@sha256:6d4dee971855fe55724c16b049e21a396287b53766ffd3fa984ee91895e9f099
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:3726553b01b777741aec235de6f38116a49aef5822ca77bd2318baf2dc537bdf
       computeResources:
         limits:
           memory: 128Mi
